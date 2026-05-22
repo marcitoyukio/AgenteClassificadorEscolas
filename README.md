@@ -2,7 +2,7 @@
 
 Este projeto foi desenvolvido como parte de um desafio técnico de engenharia de software e inteligência artificial. O ecossistema une um **Agente de IA (LLM)** construído com o framework **Google ADK** à precisão preditiva do **Machine Learning Clássico (Scikit-Learn)**, consumindo dados reais do **Censo Escolar da Educação Básica (INEP)**.
 
-![Demonstração do Agente ADK](https://github.com/user-attachments/assets/ca14955b-e342-47cf-94fc-cb3e8ce01a96)
+https://github.com/user-attachments/assets/ca14955b-e342-47cf-94fc-cb3e8ce01a96
 
 ---
 
