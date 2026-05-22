@@ -1,0 +1,70 @@
+# ==========================================
+# 1. Ambientes Virtuais e Dependências
+# ==========================================
+venv/
+.venv/
+env/
+lib/
+lib64/
+share/
+python3.14/
+
+# ==========================================
+# 2. Arquivos de Cache e Compilados do Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# 3. Variáveis de Ambiente e Segurança
+# ==========================================
+.env
+.env.local
+*.pem
+
+# ==========================================
+# 4. Dados Brutos e Processados (Machine Learning)
+# ==========================================
+# Ignora todos os CSVs e arquivos de dados pesados para não travar o Git
+data/raw/*
+data/processed/*
+*.csv
+*.tsv
+*.dat
+
+# Exceção: permite subir arquivos .gitkeep para manter a estrutura de pastas vazia no repositório
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ==========================================
+# 5. Modelos Treinados
+# ==========================================
+# Ignora os binários gerados pelo scikit-learn
+models/*.joblib
+models/*.pkl
+
+# Exceção: mantém a pasta models no repositório
+!models/.gitkeep
+
+# ==========================================
+# 6. IDEs e Editores
+# ==========================================
+# Configurações locais do PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VSCode (caso alguém da equipe use)
+.vscode/
+
+# ==========================================
+# 7. Arquivos do Sistema Operacional (macOS)
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
