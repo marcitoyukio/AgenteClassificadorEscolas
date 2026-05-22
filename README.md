@@ -2,13 +2,13 @@
 
 Este projeto foi desenvolvido como parte de um desafio técnico de engenharia de software e inteligência artificial. O ecossistema une um **Agente de IA (LLM)** construído com o framework **Google ADK** à precisão preditiva do **Machine Learning Clássico (Scikit-Learn)**, consumindo dados reais do **Censo Escolar da Educação Básica (INEP)**.
 
-https://github.com/user-attachments/assets/79d2cee6-2fe5-4aeb-acde-ad35fa27ca93
+![Demonstração do Agente ADK](<img width="1918" height="1010" alt="preview" src="https://github.com/user-attachments/assets/62697fa4-1290-47bb-83f0-774f9c9cfb12" />)
 
 ---
 
 ## Objetivo
 
-O agente atua como um **Auditor de Infraestrutura Escolar**. O objetivo principal é avaliar a infraestrutura de escolas públicas brasileiras e classificar a prioridade de receber investimentos públicos através de uma **interface conversacional (Chat no Terminal)**.
+O agente atua como um **Auditor de Infraestrutura Escolar**. O objetivo principal é avaliar a infraestrutura de escolas públicas brasileiras e **classificar** a prioridade de receber investimentos públicos através de uma **interface conversacional (Chat no Terminal)**.
 
 Em vez de operar sistemas complexos de predição, o usuário interage em linguagem natural. O agente identifica a intenção, extrai as variáveis da escola, aciona o modelo de Machine Learning de forma silenciosa e assíncrona, interpreta o resultado matemático e devolve um parecer técnico estruturado e humanizado.
 
